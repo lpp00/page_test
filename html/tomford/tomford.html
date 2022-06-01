@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>::톰포드 뷰티</title>
+    <link rel="stylesheet" href="css/tomford.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet"><!--폰트-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"><!--폰트어썸-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"><!--파비콘-->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"><!--파비콘-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!--제이쿼리-->
+    <script src="js/prefixfree.min.js"></script><!--프리픽스-->
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"><!--슬릭슬라이더-->
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"><!--슬릭슬라이더-->
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js" charset="utf-8"></script><!--슬릭슬라이더-->
+    <script defer type="text/javascript" src="js/tomford.js"></script><!--자바스크립트-->
+</head>
+
+<body>
+    <div class="hero">
+        <!--메인 화면 진입시 랜덤으로 영상 나옴-->
+        <video autoplay muted loop poster="video/hero.png">
+            <source src="video/herovideo2.mp4" type="video/mp4">
+        </video>
+        <p class="hero_btn" lang="en">SHOP NOW</p>
+    </div>
+    <header>
+        <div class="header_menu">
+            <ul>
+                <li><img src="images/header/logo_white.png" onclick="location.href='tomford.html'" alt="tomford"></li>
+                <li><img src="images/header/mobile/nav_menu_btn.png" alt="메뉴" class="menu_btn"></li>
+                <li><img src="images/header/header_menu_mypage.png" onclick="location.href='tomford.html'" alt="마이페이지"></li>
+                <li><img src="images/header/header_menu_shop.png" onclick="location.href='tomford.html'" alt="장바구니"></li>
+            </ul>
+        </div>
+        <nav class="header_nav_wrap">
+            <ul class="header_nav">
+                <li><a href="#">전체보기</a></li>
+                <li><a href="#">베이스 메이크업</a>
+                <ul class="submenu">
+                    <li><a href="#">메이크업 베이스</a></li>
+                    <li><a href="#">파운데이션</a></li>
+                    <li><a href="#">컨실러</a></li>
+                    <li><a href="#">파우더/팩트</a></li>
+                </ul>
+                </li>
+                <li><a href="#">색조 메이크업</a>
+                <ul class="submenu">
+                    <li><a href="#">브론저/하이라이터</a></li>
+                    <li><a href="#">아이 메이크업</a></li>
+                    <li><a href="#">립 메이크업</a></li>
+                    <li><a href="#">치크</a></li>
+                </ul>
+                </li>
+                <li><a href="#">스킨케어</a>
+                <li><a href="#">향수/바디/etc</a>
+                <ul class="submenu">
+                    <li><a href="#">향수</a></li>
+                    <li><a href="#">바디케어</a></li>
+                    <li><a href="#">브러시</a></li>
+                    <li><a href="#">캔들</a></li>
+                    <li><a href="#">기프트세트</a></li>
+                </ul>
+                </li>
+                <li><a href="#">남성</a>
+                <ul class="submenu">
+                    <li><a href="#">베이스 메이크업</a></li>
+                    <li><a href="#">색조 메이크업</a></li>
+                    <li><a href="#">스킨케어</a></li>
+                    <li><a href="#">향수/바디/etc</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="overlay">
+            <!--헤더 메뉴를 바깥부분 클릭시 닫히게 하기 위한 부분-->
+        </div>
+    </header>
+    <article>
+        <section>
+            <div class="conA">
+                <!--슬라이드배너-->
+                <img src="images/article/logo_white_short.png" alt="로고">
+                <div class="banner_wrap">
+                    <img src="images/article/banner_total.png" alt="배너 이미지">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="conB">
+                <h1>BEST SELLER</h1>
+                <div class="box">
+                    <img src="images/article/best_sellers_rose_prick.jpg" alt="로즈 프릭">
+                    <p>로즈 프릭</p>
+                    <span>$350-$895</span>
+                    <!--한화로 변환-->
+                </div>
+                <div class="box">
+                    <img src="images/article/best_sellers_lost_cherry.jpg" alt="로스트 체리">
+                    <p>로스트 체리</p>
+                    <span>$75-$475</span>
+                    <!--한화로 변환-->
+                </div>
+                <div class="box">
+                    <img src="images/article/best_sellers_ombre_leather.jpg" alt="옴브레 레더">
+                    <p>옴브레 레더</p>
+                    <span>$134-$184</span>
+                    <!--한화로 변환-->
+                </div>
+                <div class="box">
+                    <img src="images/article/best_sellers_rose_prick.jpg" alt="톰 포드 느와르 익스트림">
+                    <p>톰 포드 느와르 익스트림</p>
+                    <span>$134-$184</span>
+                    <!--한화로 변환-->
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="conC">
+               <h1>GIFT</h1>
+                <img src="images/article/edition_soleil.jpg" alt="솔레일 한정판">
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div class="footer1">
+            <a href="#" class="sns"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="sns"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="sns"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="sns"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="sns"><i class="fab fa-weixin"></i></a>
+            <a href="#" class="sns"><i class="fab fa-snapchat-ghost"></i></a><br>
+            <a href="#">사이트이용약관</a><a href="#">개인정보처리방침</a><a href="#">공지사항</a>
+        </div>
+        <div class="footer2">
+            <p>대표 : 홍길동 <span>전자메일주소 : tfsupport@tomford.com</span><br>주소 : 서울특별시 서초구 반포동 350번길 12<br>사업자 등록번호 : 143-82-24875</p>
+            <p>ⓒ TOM FORD CORPORATION. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+</body></html>

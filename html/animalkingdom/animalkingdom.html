@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>동물의 왕국 ｜ 디지털 KBS</title>
+    <link rel="stylesheet" href="css/animalkingdom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="../../js/jquery-3.5.1.min.js"></script>
+    <script src="../../js/prefixfree.min.js"></script>
+    <script defer type="text/javascript" src="js/animalkingdom.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="nav_1">
+                <ul class="nav_1_left">
+                    <li class="mobile_menu_btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+                    <li class="pc_menu_btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+                    <li><a href="#"><img src="images/logo_kbs.jpg" alt="kbs로고"></a></li>
+                    <li class="onair"><a href="#">ON AIR <span class="red_dot">&#8226;</span></a></li>
+                </ul>
+                <ul class="nav_1_right">
+                    <li><a href="#"><i class="far fa-user"></i></a></li>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                </ul>
+            </nav>
+            <img src="images/banner_mobile.jpg" alt="모바일 배너" class="mobile_banner">
+            <nav class="nav_2">
+                <a href="#" class="close_btn"><i class="fas fa-times"></i></a>
+                <h1 class="nav_2_title">전체메뉴</h1>
+                <div class="nav_2_all">
+                    <div>
+                        <h1>프로그램 소개</h1>
+                        <p><a href="#">프로그램정보</a></p>
+                        <p><a href="#">알려드립니다</a></p>
+                    </div>
+                    <div>
+                        <h1>방송보기</h1>
+                        <p><a href="#">방송내용</a></p>
+                        <p><a href="#">다시보기</a></p>
+                    </div>
+                    <div>
+                        <h1>시청자 참여</h1>
+                        <p><a href="#">시청자 소감</a></p>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg_btn"></div>
+            <div class="time">
+                <p class="time_title">방송 시작까지</p>
+                <p class="time_count">
+                    <span class="hours"></span>
+                    <span class="col">:</span>
+                    <span class="minutes"></span>
+                    <span class="col">:</span>
+                    <span class="seconds"></span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="program_title">
+            <div class="program_title_1">
+                <p class="headline">동물의 왕국</p>
+                <span class="schedule"><b>1TV</b> 월-일 17:30 방송 <a href="#" class="share_btn">공유</a><span class="bar"> ｜ </span><a href="#" class="subscribe_btn">구독하기</a></span>
+                <span class="mobile_all"><a href="#">전체 메뉴 <i class="fas fa-chevron-down"></i></a></span>
+            </div>
+            <div class="program_title_2">
+<!--               PC버전 메뉴-->
+                <ul>
+                    <li class="slide_menu">
+                        <a href="#">프로그램 소개</a>
+                        <ul class="slide_sub">
+                            <li><a href="#">프로그램정보</a></li>
+                            <li><a href="#">알려드립니다</a></li>
+                        </ul>
+                    </li>
+                    <li class="slide_menu">
+                        <a href="#">방송보기</a>
+                        <ul class="slide_sub">
+                            <li><a href="#">방송내용</a></li>
+                            <li><a href="#">다시보기</a></li>
+                        </ul>
+                    </li>
+                    <li class="slide_menu">
+                        <a href="#">시청자 참여</a>
+                        <ul class="slide_sub">
+                            <li><a href="#">시청자 소감</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="preview_edu">시사교양 전체 프로그램</button>
+        <div class="program_info">
+            <div class="program_info_title">
+                <h1>프로그램정보</h1>
+                <a href="#" class="more_btn">전체보기</a>
+            </div>
+            <div class="program_info_txt">
+                <p>대자연의 위대함과 생태계의 신비!BBC를 비롯하여, 세계 일류의 다큐멘터리 전문 제작사들이 제작한 고급 다큐멘터리들을 엄선, 우리말로 더빙하여 일반 시청자들에게 소개하는 프로그램</p>
+                <p class="schedule"><span>편성</span>1TV 월-금 17:30, 토/일 17:10</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_title">
+                <h1>최신 VOD</h1>
+                <a href="#" class="more_btn">전체보기</a>
+            </div>
+            <a href="#" class="box">
+                <img src="images/content_thumb_1.jpg" alt="어제 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>어제 방송</h3>
+                    <p>(다시보기 2021.5.29까지) [플로리다, 낙원의 두 얼굴] 열대와 아열대 기후가 혼재하는 미국 플로리다 주만이 가진 독특한 생태계와 인구 증가와 기후 변화 때문에 위협받는 동식물을 지키기 위해 노력하는 사람들의 이야기를 소개한다. 세계적으로 유명한 습지인 에버글레이즈 국립공원의 생태계를 위협하는 외래종 동물들의 실태를 알아보고, 아팔라치콜라 지역의 오래된 대왕송 숲을 지키려는 자연보호 협회의 노력을 엿보며, 플로리다 최남단에 위치한 플로리다 키스 제도에서는 매년 강해지는 허리케인의 위력에 자취를 감춘 산호초를 재생하기 위해 애쓰는 산호 복원 재단 사람들을 만나 본다.</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="images/content_thumb_2.jpg" alt="2일 전 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>2일 전 방송</h3>
+                    <p>(다시보기 2021.6.20까지) [사자 왕국 - 도망자들 1] 난폭한 네 수사자가 정복할 무리를 찾고 있다. 이들은 루앙과 강 서쪽 기슭을 배회하며 이미 암사자들뿐인 북쪽의 할리우드 무리와 싸웠고, 지금은 남쪽 MK 무리의 영역으로 향하고 있다. 사냥을 나갔던 MK 암사자들이 영역 경계에서 그들을 유혹해 붙들고 있지만, 며칠이 지나면 이 전략이 통하지 않을 것이다. 한편 방랑자 수컷들의 공격에 큰 타격을 입은 할리우드 무리는 풍요로운 사냥터와 멀리 떨어진 곳에서 사체 조각을 먹으며 힘겨운 나날을 보내고 있다. 그래도 할리우드 암사자들이 침략자들로부터 벗어나 비교적 평화롭게 지내는 동안, MK 무리를 다스리는 펑크족 형제는 방랑자 수컷들에게 쫓겨 달아나고, 무리는 뿔뿔이 흩어지고, 아직 어미들과 함께 숨어 지내는 새끼 사자들은 목숨이 위태롭다.</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="images/content_thumb_3.jpg" alt="3일 전 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>3일 전 방송</h3>
+                    <p>(다시보기 2021.6.19까지) [새끼 사자 칭가 2] 야생에서 태어난 사자는 가장 취약한 시기인 생후 1주일을 넘긴 후 밀림의 법칙을 배우며 완벽한 사냥 기술을 갖추어야만 최고 포식자로 거듭날 수 있다. 아프리카 크루거 국립 공원의 악명 높은 사자 무리인 ‘말라 말라’는 강력한 우두머리인 시저가 이끌고 있는데, 노련한 사냥꾼이자 헌신적인 어미인 제나 덕분에 칭가를 포함한 생후 8주 된 새끼 사자 4마리가 무리에 합류하게 된다. 무리의 막내인 칭가는 끝없는 호기심으로 주변을 탐험하며 야생의 세계를 알아가고 생후 3개월이 되자 드디어 사냥꾼인 암사자들을 따라나서게 된다. 칭가와 새끼 사자들이 약 5개월간의 우기를 견디며 성장해가는 과정을 밀착해 지켜본다.</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="images/content_thumb_4.jpg" alt="5일 전 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>5일 전 방송</h3>
+                    <p>(다시보기 2021.6.17까지) [곰과 함께] 어렸을 때부터 곰을 좋아했던 다큐멘터리 감독 로만 드루는 곰과 근접거리에서 함께 생활하는 생물학자 다비트 비트너 박사의 발표를 접한 뒤 그를 따라 알래스카로 떠나 그곳에서 몇 개월 동안 야생 곰을 관찰한다. 드루 감독은 차츰 곰에 대하여 이해와 공감을 하게 되고, 비트너 박사는 매년 만나는 곰들의 건강한 모습을 확인한다.</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="images/content_thumb_5.jpg" alt="6일 전 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>6일 전 방송</h3>
+                    <p>(다시보기 2021.6.16까지) [새끼 사자 칭가 1] 야생에서 태어난 사자는 가장 취약한 시기인 생후 1주일을 넘긴 후 밀림의 법칙을 배우며 완벽한 사냥 기술을 갖추어야만 최고 포식자로 거듭날 수 있다. 아프리카 크루거 국립 공원의 악명 높은 사자 무리인 ‘말라 말라’는 강력한 우두머리인 시저가 이끌고 있는데, 노련한 사냥꾼이자 헌신적인 어미인 제나 덕분에 칭가를 포함한 생후 8주 된 새끼 사자 4마리가 무리에 합류하게 된다. 무리의 막내인 칭가는 끝없는 호기심으로 주변을 탐험하며 야생의 세계를 알아가고 생후 3개월이 되자 드디어 사냥꾼인 암사자들을 따라나서게 된다. 칭가와 새끼 사자들이 약 5개월간의 우기를 견디며 성장해가는 과정을 밀착해 지켜본다.</p>
+                </div>
+            </a>
+            <a href="#" class="box">
+                <img src="images/content_thumb_6.jpg" alt="7일 전 방송 미리보기 이미지">
+                <div class="txt">
+                    <h3>7일 전 방송</h3>
+                    <p>(다시보기 2021.5.23까지) [자연 속 천재들 - 전문 여행가 2] 이번 시간에는 기억력이나 외부 신호 또는 집단정신을 이용해 효율적인 여행을 하는 영리한 동물들을 소개한다. 공간을 기억해 머릿속에 지도를 그리는 검은꼬리사슴, 먹잇감의 위치를 기억하고 이동 시간을 조절하는 대왕고래, 뛰어난 기억력과 후각으로 물웅덩이를 찾아가는 코끼리, 추측 항법 기술을 사용해 방향을 잡는 갯가재, 어두운 밤에 은하수를 길잡이로 삼는 쇠똥구리, 하늘을 날아 이동할 수 있는 거미와 날뱀, 집단정신을 이용해 효율적으로 이동하는 물고기 떼 등을 만나보며 젊은 과학자들의 흥미로운 실험도 함께 할 수 있다. 동물들이 보여주는 놀라운 이동 방식은 우리 인간에게도 많은 영감을 주고 있으며 더 지능적인 해결책을 찾는 데 도움이 되고 있다.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_menu">
+            <ul class="footer_menu_1">
+                <li><a href="#">KBS소개</a></li>
+                <li><a href="#">사이버 감사실</a></li>
+                <li><a href="#">광고</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">법적고지</a></li>
+                <li><a href="#">개인정보취급방침</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul class="footer_menu_2">
+                <li><a href="#">KBS N 채널</a></li>
+                <li><a href="#">KBS World</a></li>
+                <li><a href="#">Family Site</a></li>
+            </ul>
+        </div>
+        <div class="address">
+            <p><b>KBS</b></p>
+            <p>[본관] 07235 서울특별시 영등포구 여의공원로 13(여의도동)<br>대표전화 : 02-781-1000 <span>ⓒKBS</span></p>
+            <p>[본관] 07334 서울특별시 영등포구 여의대방로 359(여의도동)</p>
+        </div>
+        <div class="sns">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
